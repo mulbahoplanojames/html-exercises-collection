@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .card {
+    @apply md:max-w-3xl max-w-xl bg-white rounded-lg overflow-hidden;
+  }
+}
