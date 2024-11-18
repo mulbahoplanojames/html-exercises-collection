@@ -1,0 +1,19 @@
+.causes-content {
+  width: 20%;
+  height: 62vh;
+  border: 2px solid var(--primary-Clr);
+}
+
+.caeses-btn {
+  margin-top: 5%;
+}
+
+@media(max-width: 950px) {
+  .causes-title {
+    font-size: 30px;
+  }
+  .causes-content {
+    width: 100%;
+    height: fit-content;
+  }
+}
