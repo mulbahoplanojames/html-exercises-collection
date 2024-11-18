@@ -1,0 +1,46 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.hex-colors {
+  text-align: center;
+}
+
+.hex-colors h1 {
+  font-size: 3rem;
+  animation: changeColor 8s infinite linear;
+}
+
+.hex-colors h2 {
+  font-size: 3rem;
+  padding-top: 3%;
+}
+
+.btn {
+  padding: 10px 30px;
+  font-size: 2rem;
+}
+
+@keyframes changeColor {
+  0% {
+    color: yellow;
+  }
+  20% {
+    color: blue;
+  }
+  40% {
+    color: red;
+  }
+  60% {
+    color: turquoise;
+  }
+  80% {
+    color: blueviolet;
+  }
+  100% {
+    color: indianred;
+  }
+}
