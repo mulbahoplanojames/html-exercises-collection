@@ -4,7 +4,7 @@
   "description": "",
   "main": "main.js",
   "scripts": {
-    "dev": "npx tailwindcss -i ./src/css/tailwind/input.css -o ./src/css/tailwind/output.css --watch"
+    "dev": "node init && npx tailwindcss -i ./src/css/tailwind/input.css -o ./src/css/tailwind/output.css --watch"
   },
   "keywords": [],
   "author": "",
